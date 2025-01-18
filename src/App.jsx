@@ -5,12 +5,12 @@ import Home from './pages/Home'
 import Doctor from './pages/Doctor'
 import Login from './pages/Login'
 import Contact from './pages/Contact'
-import MyProfile from './pages/MyProfile'
 import MyAppintment from './pages/MyAppintment'
 import Appointment from './pages/Appointment'
 import Navbar from './components/Navbar'
 import About from './pages/About'
 import Footer from './components/Footer'
+import MyProfile from './pages/MyProfile'
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
 
     <Route path='/contact' element={<Contact/>}/>
 
-    <Route path='/my-profile' element={MyProfile}/>
+    <Route path='/my-profile' element={<MyProfile/>}/>
 
     <Route path='my-appointments' element={<MyAppintment/>}/>
     <Route path='/about' element={<About/>}/>
